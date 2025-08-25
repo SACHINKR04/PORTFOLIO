@@ -3,30 +3,21 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "AI-Finance-Manager",
+    description: "An intelligent personal finance manager that helps track accounts, transactions, budgets, and insights effortlessly.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "Next.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SACHINKR04/AI-Finance-Manager",
   },
+ 
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Job Portal",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A full-stack job portal enabling users to apply for jobs, companies to manage listings, and admins to oversee the platform, built with Node.js, Express, MongoDB, React, Vite, and Tailwind CSS.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "Node.js", "TailwindCSS"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -100,7 +91,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/SACHINKR04"
           >
             Check My Github <ArrowRight size={16} />
           </a>
